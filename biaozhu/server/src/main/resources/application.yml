@@ -1,0 +1,22 @@
+debug: true
+
+server:
+  port: 6001
+#  servlet:
+#    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bs?useSSL=false
+    username: root
+    password: lsh12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 200MB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

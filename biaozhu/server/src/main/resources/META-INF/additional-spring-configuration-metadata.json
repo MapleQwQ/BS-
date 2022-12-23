@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.servlet.multipart",
+      "type": "java.lang.String",
+      "description": "Description for spring.servlet.multipart."
+  }
+] }
